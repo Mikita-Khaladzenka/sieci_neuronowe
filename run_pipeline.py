@@ -1,8 +1,3 @@
-"""
-Skrypt do uruchamiania pełnego pipeline'u treningu z różnymi modelami.
-Obsługuje zarówno modele trenowane od zera, jak i transfer learning.
-"""
-
 import tensorflow as tf
 from prepare_cifar10 import prepare_data
 from simple_cnn import create_simple_cnn
